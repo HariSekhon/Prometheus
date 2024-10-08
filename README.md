@@ -144,8 +144,8 @@ bash-tools/monitoring/prometheus_node_exporter.sh
 
 ### Prometheus Quick Docs
 
-See the [Prometheus](https://github.com/HariSekhon/Knowledge-Base/blob/main/prometheus.md),
-[Grafana](https://github.com/HariSekhon/Knowledge-Base/blob/main/grafana.md) and related pages in the
+For more details see the [Prometheus](https://github.com/HariSekhon/Knowledge-Base/blob/main/prometheus.md) and
+[Grafana](https://github.com/HariSekhon/Knowledge-Base/blob/main/grafana.md) pages in the
 [HariSekhon/Knowledge-Base](https://github.com/HariSekhon/Knowledge-Base) repo.
 
 ## More Core Repos
