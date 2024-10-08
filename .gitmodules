@@ -1,3 +1,6 @@
 [submodule "bash-tools"]
 	path = bash-tools
 	url = https://github.com/HariSekhon/DevOps-Bash-tools
+[submodule "ansible"]
+	path = ansible
+	url = https://github.com/HariSekhon/Ansible.git
