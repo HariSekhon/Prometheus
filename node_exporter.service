@@ -25,7 +25,7 @@ After=network-online.target
 [Service]
 User=nobody
 ExecStart=/usr/local/bin/node_exporter
-Restart=on-failur
+Restart=on-failure
 RestartSec=5s
 
 [Install]
