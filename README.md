@@ -108,6 +108,12 @@ Run Prometheus locally, installing it if not already installed:
 bash-tools/monitoring/prometheus.sh
 ```
 
+Or using [Ansible](https://github.com/HariSekhon/Ansible):
+
+```shell
+ansible-playbook -i localhost, ansible/prometheus/prometheus.yml
+```
+
 Or to run it in Docker using docker-compose:
 
 ```shell
@@ -132,6 +138,12 @@ To install an exporter, run the relevant install script from here:
 
 ```shell
 bash-tools/install/install_prometheus_node_exporter.sh
+```
+
+Or using [Ansible](https://github.com/HariSekhon/Ansible):
+
+```shell
+ansible-playbook -i localhost, ansible/prometheus_node_exporter/node_exporter.yml
 ```
 
 #### Run Node Exporter
