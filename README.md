@@ -57,6 +57,7 @@
   - [Prometheus Exporters](#prometheus-exporters)
     - [Install Node Exporter](#install-node-exporter)
     - [Run Node Exporter](#run-node-exporter)
+  - [Systemd Unit Files](#systemd-unit-files)
   - [Prometheus Quick Docs](#prometheus-quick-docs)
 - [More Core Repos](#more-core-repos)
   - [Knowledge](#knowledge)
