@@ -23,7 +23,8 @@ Wants=network-online.target
 After=network-online.target
 
 [Service]
-User=nobody
+#User=nobody
+DynamicUser=yes
 ExecStart=/usr/local/bin/node_exporter
 Restart=on-failure
 RestartSec=5s
