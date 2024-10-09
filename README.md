@@ -154,6 +154,10 @@ Run Prometheus Node Exporter locally, installing it if not already installed:
 bash-tools/monitoring/prometheus_node_exporter.sh
 ```
 
+### Systemd Unit Files
+
+Systemd unit files for running Prometheus and Node Exporter are available under [systemd](https://github.com/HariSekhon/Prometheus/blob/main/systemd/).
+
 ### Prometheus Quick Docs
 
 For more details see the [Prometheus](https://github.com/HariSekhon/Knowledge-Base/blob/main/prometheus.md) and
