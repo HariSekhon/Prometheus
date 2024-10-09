@@ -48,6 +48,7 @@
 
 <!-- INDEX_START -->
 
+- [Quick Prometheus Doc](#quick-prometheus-doc)
 - [Prometheus Management Code](#prometheus-management-code)
   - [Initialize DevOps-Bash-tools and Template git submodules](#initialize-devops-bash-tools-and-template-git-submodules)
   - [Prometheus](#prometheus)
@@ -58,7 +59,6 @@
     - [Install Node Exporter](#install-node-exporter)
     - [Run Node Exporter](#run-node-exporter)
   - [Systemd Unit Files](#systemd-unit-files)
-  - [Prometheus Quick Docs](#prometheus-quick-docs)
 - [More Core Repos](#more-core-repos)
   - [Knowledge](#knowledge)
   - [DevOps Code](#devops-code)
@@ -70,6 +70,11 @@
   - [Misc](#misc)
 
 <!-- INDEX_ENDF -->
+
+## Quick Prometheus Doc
+
+See the [Prometheus](https://github.com/HariSekhon/Knowledge-Base/blob/main/prometheus.md) page
+in the [HariSekhon/Knowledge-Base](https://github.com/HariSekhon/Knowledge-Base) repo.
 
 ## Prometheus Management Code
 
@@ -158,12 +163,6 @@ bash-tools/monitoring/prometheus_node_exporter.sh
 ### Systemd Unit Files
 
 Systemd unit files for running Prometheus and Node Exporter are available under [systemd](https://github.com/HariSekhon/Prometheus/blob/main/systemd/).
-
-### Prometheus Quick Docs
-
-For more details see the [Prometheus](https://github.com/HariSekhon/Knowledge-Base/blob/main/prometheus.md) and
-[Grafana](https://github.com/HariSekhon/Knowledge-Base/blob/main/grafana.md) pages in the
-[HariSekhon/Knowledge-Base](https://github.com/HariSekhon/Knowledge-Base) repo.
 
 ## More Core Repos
 
