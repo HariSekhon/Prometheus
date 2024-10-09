@@ -50,7 +50,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  check_yaml:
+  systemd_analyze:
     # github.event.repository context not available in scheduled workflows
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'HariSekhon'
