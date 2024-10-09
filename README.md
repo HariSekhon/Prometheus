@@ -44,6 +44,7 @@
 [![Semgrep](https://github.com/HariSekhon/Prometheus/actions/workflows/semgrep.yaml/badge.svg)](https://github.com/HariSekhon/Prometheus/actions/workflows/semgrep.yaml)
 [![Semgrep Cloud](https://github.com/HariSekhon/Prometheus/actions/workflows/semgrep-cloud.yaml/badge.svg)](https://github.com/HariSekhon/Prometheus/actions/workflows/semgrep-cloud.yaml)
 [![SonarCloud](https://github.com/HariSekhon/Prometheus/actions/workflows/sonarcloud.yaml/badge.svg)](https://github.com/HariSekhon/Prometheus/actions/workflows/sonarcloud.yaml)
+[![Systemd-Analyze Verify](https://github.com/HariSekhon/Prometheus/actions/workflows/systemd-analyze.yaml/badge.svg)](https://github.com/HariSekhon/Prometheus/actions/workflows/systemd-analyze.yaml)
 [![Trivy](https://github.com/HariSekhon/Prometheus/actions/workflows/trivy.yaml/badge.svg)](https://github.com/HariSekhon/Prometheus/actions/workflows/trivy.yaml)
 [![YAML](https://github.com/HariSekhon/Prometheus/actions/workflows/yaml.yaml/badge.svg)](https://github.com/HariSekhon/Prometheus/actions/workflows/yaml.yaml)
 
