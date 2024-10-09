@@ -16,7 +16,7 @@
 # ============================================================================ #
 
 ---
-name: Systemd Analyze
+name: Systemd-Analyze Verify
 
 on:
   push:
@@ -50,7 +50,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  systemd_analyze:
+  systemd_analyze_verify:
     # github.event.repository context not available in scheduled workflows
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'HariSekhon'
