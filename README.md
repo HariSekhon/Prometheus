@@ -103,6 +103,8 @@ bash-tools/install/install_prometheus.sh
 
 #### Sample Config from HariSekhon/Templates
 
+At root of this repo:
+
 [prometheus.yml](prometheus.yml)
 
 Also available at:
