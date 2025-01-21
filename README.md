@@ -123,7 +123,7 @@ Run Prometheus locally from root of repo against `prometheus.yml`:
 bash-tools/monitoring/prometheus.sh
 ```
 
-(installs it if not already installed)
+(automatically installs Prometheus if not already installed)
 
 Or using [Ansible](https://github.com/HariSekhon/Ansible) (Linux only):
 
@@ -178,7 +178,7 @@ Run Prometheus Node Exporter locally:
 bash-tools/monitoring/prometheus_node_exporter.sh
 ```
 
-(installs it if not already installed)
+(automatically installs Node Exporter if not already installed)
 
 ### Systemd Unit Files
 
