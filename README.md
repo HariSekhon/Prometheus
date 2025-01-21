@@ -117,7 +117,7 @@ wget https://raw.githubusercontent.com/HariSekhon/Templates/refs/heads/master/pr
 
 #### Run Prometheus
 
-Run Prometheus locally from root or repo against `prometheus.yml`:
+Run Prometheus locally from root of repo against `prometheus.yml`:
 
 ```shell
 bash-tools/monitoring/prometheus.sh
