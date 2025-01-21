@@ -54,10 +54,11 @@
 - [Prometheus Management Code](#prometheus-management-code)
   - [Initialize DevOps-Bash-tools and Template git submodules](#initialize-devops-bash-tools-and-template-git-submodules)
   - [Prometheus](#prometheus)
-    - [Download and install Prometheus locally quickly](#download-and-install-prometheus-locally-quickly)
-    - [Download Quick Sample Config from HariSekhon/Templates](#download-quick-sample-config-from-harisekhontemplates)
+    - [Install Prometheus](#install-prometheus)
+    - [Sample Config from HariSekhon/Templates](#sample-config-from-harisekhontemplates)
     - [Run Prometheus](#run-prometheus)
   - [Prometheus Exporters](#prometheus-exporters)
+    - [Install Scripts](#install-scripts)
     - [Install Node Exporter](#install-node-exporter)
     - [Run Node Exporter](#run-node-exporter)
   - [Systemd Unit Files](#systemd-unit-files)
@@ -94,13 +95,17 @@ git submodule update --init --recursive
 
 ### Prometheus
 
-#### Download and install Prometheus locally quickly
+#### Install Prometheus
 
 ```shell
 bash-tools/install/install_prometheus.sh
 ```
 
-#### Download Quick Sample Config from HariSekhon/Templates
+#### Sample Config from HariSekhon/Templates
+
+[prometheus.yml](prometheus.yml)
+
+Also available at:
 
 [HariSekhon/Templates - prometheus.yml](https://github.com/HariSekhon/Templates/blob/master/prometheus.yml)
 
@@ -110,11 +115,13 @@ wget https://raw.githubusercontent.com/HariSekhon/Templates/refs/heads/master/pr
 
 #### Run Prometheus
 
-Run Prometheus locally, installing it if not already installed:
+Run Prometheus locally from root or repo against `prometheus.yml`:
 
 ```shell
 bash-tools/monitoring/prometheus.sh
 ```
+
+(installs it if not already installed)
 
 Or using [Ansible](https://github.com/HariSekhon/Ansible) (Linux only):
 
@@ -140,7 +147,14 @@ Add exporters like the local Node Exporter the sample config is expecting using 
 
 ### Prometheus Exporters
 
-To install an exporter, run the relevant install script from here:
+#### Install Scripts
+
+To install an exporter, run the relevant install script from
+the [DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools) submodule:
+
+```text
+bash-tools/install/install_prometheus_*_exporter.sh
+```
 
 #### Install Node Exporter
 
@@ -156,11 +170,13 @@ ansible-playbook -i localhost, ansible/prometheus_node_exporter/playbook.yml
 
 #### Run Node Exporter
 
-Run Prometheus Node Exporter locally, installing it if not already installed:
+Run Prometheus Node Exporter locally:
 
 ```shell
 bash-tools/monitoring/prometheus_node_exporter.sh
 ```
+
+(installs it if not already installed)
 
 ### Systemd Unit Files
 
